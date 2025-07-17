@@ -1,0 +1,49 @@
+body {
+  font-family: system-ui;
+  background: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-wrap: center;
+  flex-direction: center;
+}
+div{
+  padding: 15px;
+  border: solid 2px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #287575;
+}
+#start{
+  border: #41a6a6 solid 7px;
+  margin: 5px 0;
+  border-radius: 5px;
+  background-color: #45c4c4;
+  color: #2F3030;
+  width: 100%;
+  box-shadow: 0px 0px 5px #103838;
+}
+#ball{
+  border: #9e4a46 solid 2px;
+  height: 50px;
+  width: 50px;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: #9e4a46;
+  color: white;
+  text-align: center;
+  box-shadow: 0px 0px 10px white;
+}
+button{
+  cursor: pointer;
+}
+h1{
+  text-shadow: 0px 0px 10px #103838;
+  color: gold;
+}
+p{
+  margin: 5px;
+}
+#answer{
+  font-style: italic;
+}
